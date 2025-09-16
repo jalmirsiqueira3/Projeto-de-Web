@@ -1,1 +1,1 @@
-# web
+Esse projeto foi desenvolvido na disiciplina de Programação Para a Internet I, O site consiste em um sistema de avaliação de filmes, chamado SAF, nele você pode selecionar um filme específico e fazer uma avaliação, atribuindo uma nota e um comentário opcionalmente. Para o desenvolvimento do site foi utilizado Html, CSS e JavaScript no FrontEnd e o Backend foi desenvolvido com Node.js e Express.js, o banco de dados foi desenvolvido utilizando SQLite. Para levantar o site basta usar o comando "node index.js" e o servidor está rodando em http://localhost:55555.
