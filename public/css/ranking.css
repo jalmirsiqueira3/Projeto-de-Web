@@ -1,0 +1,149 @@
+.conteudo {
+    min-height: calc(100vh - 195px);
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+
+    flex-direction: column;
+    justify-content: flex-start;
+
+    border-radius: 20px;
+    border-style: groove;
+    border-color: gray;
+
+    background-image: linear-gradient(to top, rgb(124, 112, 112), rgb(111, 124, 111));
+    background: #87999373;
+}
+
+.filme {
+    display: flex;
+    height: 265px;
+    width: 675px;
+
+    justify-content: flex-start;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 15px;
+    border-style: groove;
+    border-color: black;
+
+    background: #68553e73;
+}
+
+.capa {
+    width: 150px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.textos {
+    margin: 10px;
+}
+
+.filme a {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo {
+    margin: 7px;
+    font-size: 23px;
+    text-shadow: rgb(172, 164, 164) 0.1em 0.1em 0.1em;
+}
+
+h3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    border-radius: 7px;
+    width: 30px;
+    height: 30px;
+    background: #e2e04be0;
+}
+
+.informacoes {
+    display: flex;
+    width: 500px;
+
+    margin-bottom: 10px;
+
+    justify-content: space-between;
+}
+
+.dados {
+    display: flex;
+    height: 180px;
+    width: 150px;
+
+    margin-left: 10px;
+    
+    flex-direction: column;
+    justify-content: space-between  ;
+}
+
+button {
+    position: relative;
+    bottom: auto;
+    display: flex;
+    background-color: #101a72;
+    color: white;
+    width: 120px;
+    height: 40px;
+
+    padding: 10px;
+
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row; 
+}
+
+.estrela {
+    position: relative;
+    height: 24px;
+    width: 24px;
+
+    margin-right: 2px;
+    background-color: black;
+    clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.estrela-cheia {
+    position: absolute;
+    height: 100%;
+    background-color: #ffda44;
+}
+
+.sinopse {
+    display: flex;
+    padding: 0px 15px 0 15px;
+    width: 350px;
+    
+    flex-direction: column;
+    text-align: justify;
+}
+
+.sinopse p {
+    margin-bottom: 5px;
+}

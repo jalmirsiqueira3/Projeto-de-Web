@@ -1,0 +1,33 @@
+{
+  "name": "saf-backend",
+  "version": "1.0.0",
+  "description": "site de avaliacao de filmes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:setup": "node ./database/tables.js",
+    "db:seed": "node ./database/seed.generos.js && node ./database/seed.filmes.js && node ./database/seed.usuarios.js && node ./database/seed.avaliacoes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelmirsiqueira/saf-backend.git"
+  },
+  "keywords": [
+    "SAF"
+  ],
+  "author": "JoelmirSiqueira&JalmirSiqueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelmirsiqueira/saf-backend/issues"
+  },
+  "homepage": "https://github.com/joelmirsiqueira/saf-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.9",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,80 @@
+.conteudo {
+    min-height: calc(100vh - 195px);
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-radius: 20px;
+    border-style: groove;
+    border-color: gray;
+
+    background-image: linear-gradient(to top, rgb(124, 112, 112), rgb(111, 124, 111));
+    background: #87999373;
+}
+
+#mudar-senha {
+    display: flex;
+    height: auto;
+    width: 450px;
+
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 15px;
+    border-style: groove;
+    border-color: black;
+
+    background: #68553e73;
+}
+
+#mudar-senha h1 {
+    text-align: center;
+    margin-bottom: 10px;
+
+    text-shadow: rgb(172, 164, 164) 0.1em 0.1em 0.1em;
+}
+
+#dados {
+    display: flex;
+    width: 200px;
+
+    flex-direction: column;
+}
+
+#dados label {
+    font-weight: bolder;
+}
+
+#dados input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 3px;   
+    
+    border-radius: 5px;
+    
+    border: 2px solid #040405;
+}
+
+#mudar-senha button {
+    display: inline-block;
+    padding: 10px 15px;
+    width: 200px;
+    align-items: end;
+
+    margin-top: 5px;
+
+    border: none;
+    background-color: #101a72;
+    color: white;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
